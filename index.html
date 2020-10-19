@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- link ref for css + css-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Google-clone</title>
+</head>
+<body>
+<!--Basically "google page"
+gonna use one div as a container 
+=then use 3 div(for 3 vertical collums upper-mid-lower
+and then make separate cointainers for actuall content
+TOP is ul list + image!(not interactive ..yet)
+mid is google logo, searchbar, 2 buttons, translated <p>
+lower are 2 footer divs -First czechia, second is 2divs(left+right) --->
+<div id="container">
+    <div id="top">
+        <ul>
+            <li id="gmail" class="underl">Gmail</li>
+            <li id="images" class="underl">Images</li>
+            <li id="image"><img src="" alt="X"></li>  
+            <li id="signin"><button id="signinbutton" type="button">Sign in</button></li>
+        </ul>
+    </div>
+    <div id="mid">
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+            alt="Google logo">
+        </div>
+        <div id="search">
+            <form id="search-form">
+                <input type="text" id="search-box">
+            </form>
+        </div>
+        <div id="buttons">
+            <button id="g-search">Google Search</button>
+            <button id="FeelinLucky">I'm Feeling Lucky</button>
+        </div>
+        <div id="under-button-text">
+            <p>Google offered in: <a href="" class="underl">čeština</a></p>
+        </div>
+
+    </div>
+    <div id="bot">
+        <div class="footers">
+            <ul>
+                <li>Czechia</li>
+            </ul>
+        </div>
+        <div class="footers">
+            <div id="footer-left">
+                <ul>
+                    <li class="underl">Advertising</li>
+                    <li class="underl">Business</li>
+                    <li class="underl">About</li>
+                    <li class="underl">How Search works</li>
+                </ul>
+            </div>
+            <div id="footer-right">
+                <ul>
+                    <li class="underl">Privacy</li>
+                    <li class="underl">Terms</li>
+                    <li class="underl">Settings</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

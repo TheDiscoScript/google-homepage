@@ -1,0 +1,47 @@
+/* all*/
+body{
+    font-family:Arial, sans-serif;
+    font-size:small;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+
+.underl:hover{
+    text-decoration: underline;
+}
+/*top*/
+#top{
+    background-color: grey;
+    position: relative;
+    top:10px;
+}
+#top ul{
+    text-align:right;
+}
+#top li{
+    display: inline-block;
+    padding-left: 8px;
+}
+#signinbutton{
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 3px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #FFF
+}
+/* mid */
+#mid{
+    background-color: lightblue;
+}
+/* bot */
+#bot{
+    background-color: lightgreen;
+}
